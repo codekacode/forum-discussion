@@ -35,6 +35,7 @@ gem 'cancancan', '~> 2.1', '>= 2.1.3'
 gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem 'simple_form'
@@ -55,6 +56,8 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'guard-livereload', '~> 2.5', require: false
+  gem 'guard'
 end
 
 group :test do
